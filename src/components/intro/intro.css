@@ -1,0 +1,109 @@
+#intro {
+  height: calc(100vh - 5rem);
+  width: 100vw;
+  max-width: 77rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: -5rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  margin-top: 5rem;
+  height: 100vh;
+}
+
+.introContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.intoName {
+  color: rgb(210, 177, 22);
+}
+
+.introPara {
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.containbtn {
+  display: flex;
+  font-size: medium;
+  font-weight: 200;
+  gap: 3rem;
+}
+
+.btn {
+  background: white;
+  margin: 1rem 0;
+  color: black;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.btnImg {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 820px) {
+  .bg {
+    right: -10vw;
+  }
+  .introContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bg {
+    right: -20vw;
+  }
+
+  .btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 0.75rem;
+  }
+
+  .containbtn {
+    display: flex;
+    font-size: small;
+    font-weight: 200;
+    gap: 0.75rem;
+  }
+
+  .btn {
+    background: white;
+    margin: 0.75rem 0;
+    color: black;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 1.75rem;
+  }
+}
