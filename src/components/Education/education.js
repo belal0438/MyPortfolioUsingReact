@@ -8,7 +8,7 @@ const arr = [
   {
     imag: sharpnerLogo,
     hding: "Sharpner Tech",
-    finishDate: "October 2021-Present",
+    finishDate: "27th Feb 2023-Present",
     paragraph: "Web Development Course (Backen Developer)",
   },
   {
