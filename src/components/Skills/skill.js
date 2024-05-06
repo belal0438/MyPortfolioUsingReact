@@ -9,6 +9,7 @@ import mysql from "../../assets/mysql.png";
 import expressJs from "../../assets/express.png";
 import boostrape from "../../assets/Boostrape.png";
 import reactJs from "../../assets/react.png";
+import graphQl from "../../assets/graphql.png";
 
 const ArrayOfSkills = [
   { Imag: Html, Alt: "HTML", paragraph: "HTML" },
@@ -20,6 +21,7 @@ const ArrayOfSkills = [
   { Imag: expressJs, Alt: "express.js", paragraph: "Express.Js" },
   { Imag: boostrape, Alt: "boostrape", paragraph: "Boostrape" },
   { Imag: reactJs, Alt: "react", paragraph: "React.Js" },
+  { Imag: graphQl, Alt: "graphQl", paragraph: "GraphQl" },
 ];
 
 const Skill = () => {

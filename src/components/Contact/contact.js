@@ -33,6 +33,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h1 className="contactPageTittle">Contact Me</h1>
+      <div>Email: mohammadvns121@gmail.com</div>
       <span className="contactDesc">
         Please fill out the form below to discuss any work opportunities.
       </span>

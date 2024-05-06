@@ -24,7 +24,7 @@
   margin-bottom: 1.5rem;
 }
 
-.headingButton {
+.headingButtonWork {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,5 +123,11 @@
   .projectLogo {
     object-fit: cover;
     width: 75vw;
+  }
+
+  .headingButtonWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

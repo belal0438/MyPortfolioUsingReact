@@ -2,7 +2,7 @@ import React from "react";
 import "./intro.css";
 import btnimg from "../../assets/hireme.png";
 import { Link } from "react-scroll";
-import belalImag from "../../assets/belal_update.png";
+import belalImag from "../../assets/belal_pic2.png";
 const Intro = () => {
   return (
     <section id="intro">
@@ -22,7 +22,7 @@ const Intro = () => {
         <div className="containbtn">
           <a
             className="btn"
-            href="https://drive.google.com/file/d/1a0mYQv49ZpIpIiyC_O7hwlZQ3C2LIfUc/view?usp=sharing">
+            href="https://drive.google.com/file/d/1WgOOICSXsEXwEhYqpYJEAuZia-mbaTBm/view?usp=sharing">
             Download Resume
           </a>
 

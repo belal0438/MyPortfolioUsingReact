@@ -9,7 +9,7 @@ const arr = [
     imag: sharpnerLogo,
     hding: "Sharpner Tech",
     finishDate: "27th Feb 2023-Present",
-    paragraph: "Web Development Course (Backen Developer)",
+    paragraph: "Full Stack Web Developer",
   },
   {
     imag: UniversityLogo,
@@ -29,22 +29,24 @@ const Education = () => {
   return (
     <section id="education">
       <span className="educationTitle"> My Education</span>
-      {arr.map((item) => {
-        return (
-          <div className="educationBar" key={Math.random()}>
-            <div className="imageResponsiblity">
-              <img src={item.imag} alt="college" className="Logo" />
-            </div>
-            <div className="project">
-              <div className="headingButton">
-                <span className="headingEducation">{item.hding}</span>
-                <span className="finishDate">{item.finishDate}</span>
+      <div className="container">
+        {arr.map((item) => {
+          return (
+            <div className="educationBar" key={Math.random()}>
+              <div className="imageResponsiblity">
+                <img src={item.imag} alt="college" className="Logo" />
               </div>
-              <span className="paragrph">{item.paragraph}</span>
+              <div className="project">
+                <div className="headingButton">
+                  <span className="headingEducation">{item.hding}</span>
+                  <span className="finishDate">{item.finishDate}</span>
+                </div>
+                <span className="paragrph">{item.paragraph}</span>
+              </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </section>
   );
 };
